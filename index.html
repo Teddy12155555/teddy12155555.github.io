@@ -1,299 +1,117 @@
 <!DOCTYPE html>
-<html lang='en'>
-
+<html lang="en">
 <head>
-	<meta charset='UTF-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-	<title>Tai-Ming Huang</title>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<link rel='stylesheet' href='asset/css/bootstrap.css'>
-	<link rel='stylesheet' href='asset/css/all.css'>
-	<link rel='stylesheet' href='asset/css/style.css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tai-Ming Huang — Ph.D. student researching computer vision, vision-language understanding, deepfake forensics, and agentic AI.">
+  <title>Tai-Ming Huang</title>
+  <link rel="stylesheet" href="asset/css/bootstrap.css">
+  <link rel="stylesheet" href="asset/css/all.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+  <script defer src="site-data.js"></script>
+  <script defer src="site.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N76YLSTK2N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N76YLSTK2N');
+  </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N76YLSTK2N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-  gtag('config', 'G-N76YLSTK2N');
-</script>
-<body class='bg-light'>
-	<header>
-		<nav class='navbar navbar-light fixed-top bg-light'>
-			<a class='navbar-brand col-sm-3 col-md-2 mt-1 ml-5' href='index.html'>
-				<h2>Tai-Ming Huang</h2>
-			</a>
-			<ul class="nav justify-content-center">
-				<li class="nav-item">
-					<a class=" nav-link" href="#">CV</a>
-				</li>
-				<li class="nav-item">
-					<a class=" nav-link" href="#research">Research</a>
-				</li>
-				<!-- <li class="nav-item">
-					<a class=" nav-link" href="#project">Project</a>
-				</li> -->
-			</ul>
-		</nav>
-	</header>
-	<section id="top">
-		<div class='container pt-5'>
-			<div class="row pt-5">
-				<div class="col-3">
-					<img class="img-fluid rounded" src="asset/image/teddy.JPG" alt="headshot">
-				</div>
-				<div class="col-9">
-					<h4 class=''>Ph.D. Student @ National Taiwan University (NTU)</h4>
-					<div class="row">
-						<p class="text-muted mx-3 my-2">teddy12155555 [at] cmlab.csie.ntu.edu.tw</p>
-						<span class="icon"><a class="text-dark" href="https://www.linkedin.com/in/taiming/"><i
-							class="fab fa-linkedin mx-2"></i></a></span>
-						<span class="icon"><a class="text-dark" href="https://github.com/Teddy12155555"><i
-							class="fab fa-github mx-2"></i></a></span>
-				<span class="icon"><a class="text-dark"
-						href="https://scholar.google.com/citations?hl=zh-TW&user=UpFMaHQAAAAJ"><i
-							class="fas fa-graduation-cap mx-2"></i></a></span>
-					</div>
-					
-					<p>Hi there! Thanks for stopping by my homepage!</p>
-						<p>
-							I am a 2rd-year Ph.D. student in Computer Science at <a class="" href="https://aimm.cmlab.csie.ntu.edu.tw/">CM Lab (AIMM Group)</a>, <a class="" href="https://www.ntu.edu.tw/">National Taiwan University</a>, advised by Prof. <a class="" href="https://www.csie.ntu.edu.tw/~wenhuang/">Wen-Huang Cheng</a>.  
-                        	Concurrently, I am a Research Assistant at <a class="" href="https://www.citi.sinica.edu.tw/main">CITI, Academia Sinica</a>, working with Prof. <a class="" href="https://homepage.citi.sinica.edu.tw/pages/pullpull/index_en.html">Jun-Cheng Chen</a>.  
-                        	I received my Bachelor's degree in Computer Science from the <a class="" href="https://www.ntust.edu.tw/">National Taiwan University of Science and Technology (Taiwan Tech)</a> in 2021, followed by an M.S. degree in Computer Science from the same institution in 2023, under the supervision of Prof.<a class="" href="https://faculty.csie.ntust.edu.tw/~hua/index_e.htm">Kai-Lung Hua</a>.
-						</p>
-						
-				</div>
-			</div>
-			<div class="row pt-5">
-				<p>
-					My primary research interests broadly include <b>computer vision</b>, <b>vision-language understanding</b>, <b>deepfake forensics</b>, and <b>agentic AI</b>.
-				</p>
+  <header>
+    <nav class="navbar navbar-light fixed-top site-nav" aria-label="Primary navigation">
+      <a class="navbar-brand" href="#top" aria-label="Tai-Ming Huang home">Tai-Ming Huang</a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a></li>
+        <li class="nav-item"><a class="nav-link" href="#research">Publications</a></li>
+      </ul>
+    </nav>
+  </header>
 
-			</div>
-		</div>
-	</section>
-	<section class="mx-5 my-5" id="highlights">
-		<h3 class="mx-5">Recent highlights</h3>
-		<ul class=" mx-5">
-			<li class="bg-light">
-				<b>🚀 [05/01, 2026] </b> Our paper <u><i>"Adapt2Hide: Leveraging Off-the-shelf Autoencoder for Reversible Visual Processing"</i></u> has been accepted to <b>ICIP 2026</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [03/17, 2026] </b> Our paper <u><i>"DE-Seg: A Dual-Teacher and Edge-Guided Framework for Semi-Supervised Medical Image Segmentation"</i></u> has been accepted to <b>ICME 2026</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [11/11, 2025] </b> Our paper <u><i>"Dragonite: Single-Step Drag-based Image Editing with Geometric-Semantic Guidance"</i></u> has been accepted to <b>WACV 2026</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [11/11, 2025] </b> Our paper <u><i>"DirectDrag: High-Fidelity, Mask-Free, Prompt-Free Drag-based Image Editing via Readout-Guided Feature Alignment"</i></u> has been accepted to <b>WACV 2026</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [05/20, 2025] </b> Our paper <u><i>"ExDF:Explainable Deepfake Detection with Vision-Language Model"</i></u> has been accepted to <b>ICIP 2025</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [02/26, 2025] </b> Our paper <u><i>"Towards More General Video-based Deepfake Detection through Facial Feature Guided Adaptation for Foundation Model"</i></u> has been accepted to <b>CVPR 2025</b>.
-			</li>
-			<li class="bg-light">
-				<b>🚀 [08/05, 2024] </b> Our paper <u><i>"Generalized Image-based Deepfake Detection through Foundation Model Adaptation"</i></u> has been accepted to <b>ICPR 2024</b>.
-			</li>
-		</ul>
-		</div>
-	</section>
-	<section class="mx-5 my-5" id="research">
-		<h3 class="mx-5">Selected publications</h3>
-		<ul class="list-group list-group-flush mx-5">
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/Adapt2Hide.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Adapt2Hide: Leveraging Off-the-shelf Autoencoder for Reversible Visual Processing</h4>
-						<p>Ernie Chu, I-Sheng Fang, <u>Tai-Ming Huang</u>, Pin-Yen Chiu, Vishal M. Patel, Jun-Cheng Chen</p>
-						<p><b>ICIP 2026</b></p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/DE-SEG.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>DE-Seg: A Dual-Teacher and Edge-Guided Framework for Semi-Supervised Medical Image Segmentation</h4>
-						<p>Wen-Shan Hsu*, <u>Tai-Ming Huang*</u>, Hui-Guan Yuan, Wen-Huang Cheng, Kai-Lung Hua </p>
-						<p><b>ICME 2026</b></p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/Dragonite.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Dragonite: Single-Step Drag-based Image Editing with Geometric-Semantic Guidance</h4>
-						<p>Meng-Ting Jhong, <u>Tai-Ming Huang</u>, Shang-Fu Chen, Wen-Huang Cheng, Kai-Lung Hua </p>
-						<p><b>WACV 2026</b></p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/DirectDrag.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>DirectDrag: High-Fidelity, Mask-Free, Prompt-Free Drag-based Image Editing via Readout-Guided Feature Alignment</h4>
-						<p>Sheng-Hao Liao, Shang-Fu Chen, <u>Tai-Ming Huang</u>, Wen-Huang Cheng, Kai-Lung Hua </p>
-						<p><b>WACV 2026</b></p>
-						<p>
-							<a href="https://frakw.github.io/DirectDrag/">[Project Page]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/Thinkfake.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>ThinkFake: Reasoning in Multimodal Large Language Models for AI-Generated Image Detection</h4>
-						<p><u>Tai-Ming Huang</u>, Wei-Tung Lin, Kai-Lung Hua, Wen-Huang Cheng, Junichi Yamagishi, Jun-Cheng Chen</p>
-						<p><b>Arxiv 2025</b></p>
-						<!-- <p>
-							<a href="https://arxiv.org/pdf/2404.05583">[Paper]</a>
-						</p> -->
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/ExDF.png" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>ExDF:Explainable Deepfake Detection with Vision-Language Model</h4>
-						<p>Shu-Tzu Lo<sup>*</sup>, <u>Tai-Ming Huang<sup>*</sup></u>, Yue-Hua Han, Kai-Lung Hua, Jun-Cheng Chen</p>
-						<p><b>ICIP 2025 (Spotlight)</b></p>
-						<p>
-							<a href="https://ieeexplore.ieee.org/document/11084529">[Paper]</a>
-							<a href="https://github.com/aiiu-lab/ExDF">[Code]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/cvpr.PNG" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Towards More General Video-based Deepfake Detection through Facial Feature Guided Adaptation for Foundation Model</h4>
-						<p>Yue-Hua Han, <u>Tai-Ming Huang</u>, Kai-Lung Hua, Jun-Cheng Chen</p>
-						<p><b>CVPR 2025</b></p>
-						<p>
-							<!-- <a href="https://ahnsun.github.io/merlin/">[Project Page]</a> -->
-							<a href="https://arxiv.org/pdf/2404.05583">[Paper]</a>
-							<a href="https://github.com/aiiu-lab/DFD-FCG">[Code]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/adaptCLIP.PNG" alt="adaptCLIP">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Generalized Image-based Deepfake Detection through Foundation Model Adaptation</h4>
-						<p><u>Tai-Ming Huang</u>, Yue-Hua Han, Ernie Chu, Shu-Tzu Lo, Kai-Lung Hua, Jun-Cheng Chen</p>
-						<p><b>ICPR 2024</b></p>
-						<p>
-							<a href="https://link.springer.com/chapter/10.1007/978-3-031-78305-0_13">[Paper]</a>
-							<a href="https://github.com/aiiu-lab/AdaptCLIP">[Code]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/VDNet.PNG" alt="VDNet">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>VDNet: video deinterlacing network based on coarse adaptive module and deformable recurrent residual network</h4>
-						<p>Yin-Chen Yeh, Jilyan Dy, <u>Tai-Ming Huang</u>, Yung-Yao Chen, Kai-Lung Hua</p>
-						<p><b>Neural Computing and Applications 2022</b></p>
-						<p>
-							<a href="https://link.springer.com/article/10.1007/s00521-022-07116-5">[Paper]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>A Data Hiding Scheme Based On Absolute Moment Block Truncation Coding and Lookup Table</h4>
-						<p>Ting-Kai Yang, Shang-Fu Chen, <u>Tai-Ming Huang</u>, Julianne Tan, Jilyan Dy, Kai-Lung Hua</p>
-						<p><b>ICCE-TW 2022</b></p>
-						<p>
-							<a href="https://ieeexplore.ieee.org/document/9869120">[Paper]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/PanelGAN.PNG" alt="PaNel-GAN">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Unpaired image-to-image translation using negative learning for noisy patches</h4>
-						<p>Yu-Hsiang Hung, Julianne Tan, <u>Tai-Ming Huang</u>, Shang-Che Hsu, Yi-Ling Chen, Kai-Lung Hua</p>
-						<p><b>IEEE MultiMedia 2022</b></p>
-						<p>
-							<a href="https://ieeexplore.ieee.org/document/9780547">[Paper]</a>
-						</p>
-					</div>
-			</li>
-			<li class="list-group-item bg-light">
-				<div class="row">
-					<div class="col-3"><img class="img-fluid" src="asset/image/Adjustable.PNG" alt="">
-					</div>
-					<div class="col-9">
-						<h4 id='top' class=''>Adjustable model compression using multiple genetic algorithm</h4>
-						<p>Jose Jaena Mari Ople, <u>Tai-Ming Huang</u>, Ming-Chih Chiu, Yi-Ling Chen, Kai-Lung Hua</p>
-						<p><b>IEEE Transactions on Multimedia 2021</b></p>
-						<p>
-							<a href="https://ieeexplore.ieee.org/document/9665241">[Paper]</a>
-						</p>
-					</div>
-			</li>
-			
-		</ul>
-		</div>
-	</section>
+  <main id="content">
+    <section id="top" class="hero-section">
+      <div class="container">
+        <div class="row hero-grid">
+          <div class="col-3">
+            <img class="img-fluid profile-photo" src="asset/image/teddy.JPG" alt="Portrait of Tai-Ming Huang">
+          </div>
+          <div class="col-9">
+            <h1><span>Tai-Ming</span> <span class="family-name">Huang</span></h1>
+            <p class="hero-role">Ph.D. Student at National Taiwan University</p>
 
-	
+            <div class="contact-row">
+              <p class="email">teddy12155555 [at] cmlab.csie.ntu.edu.tw</p>
+              <a class="icon-link" href="https://www.linkedin.com/in/taiming/" aria-label="LinkedIn">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a class="icon-link" href="https://github.com/Teddy12155555" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a class="icon-link" href="https://scholar.google.com/citations?hl=zh-TW&amp;user=UpFMaHQAAAAJ" aria-label="Google Scholar">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+              </a>
+            </div>
 
-	<!-- <section class="mx-5 my-5" id="sing">
-		<h3 class="mx-5">Singing Videos</h3>
-		<div class="row mx-5">
-			<div class="col-6">
-				<div class="ratio ratio-16x9">
-					<iframe class="home-vid" src="https://player.bilibili.com/player.html?aid=608001951&bvid=BV1y84y1b7jM&cid=974044554&page=1&autoplay=0&mute=1" title="bilibili video"
-						allowfullscreen></iframe>
-					<iframe src="//player.bilibili.com/player.html?aid=608001951&bvid=BV1y84y1b7jM&cid=974044554&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-				</div>
+            <div class="intro-copy">
+              <p>Hi there! Thanks for stopping by my homepage.</p>
+              <p>
+                I am a 2nd-year Ph.D. student in Computer Science at
+                <a href="https://aimm.cmlab.csie.ntu.edu.tw/">CM Lab (AIMM Group)</a>,
+                <a href="https://www.ntu.edu.tw/">National Taiwan University</a>, advised by Prof.
+                <a href="https://www.csie.ntu.edu.tw/~wenhuang/">Wen-Huang Cheng</a>. Concurrently, I am a Research Assistant at
+                <a href="https://www.citi.sinica.edu.tw/main">CITI, Academia Sinica</a>, working with Prof.
+                <a href="https://homepage.citi.sinica.edu.tw/pages/pullpull/index_en.html">Jun-Cheng Chen</a>.
+              </p>
+              <p>
+                I received my Bachelor's degree in Computer Science from
+                <a href="https://www.ntust.edu.tw/">National Taiwan University of Science and Technology (Taiwan Tech)</a>
+                in 2021, followed by an M.S. degree in Computer Science from the same institution in 2023, under the supervision of Prof.
+                <a href="https://faculty.csie.ntust.edu.tw/~hua/index_e.htm">Kai-Lung Hua</a>.
+              </p>
+            </div>
+          </div>
+        </div>
 
-			</div>
-			<div class="col-6">
-				<div class="ratio ratio-16x9">
-					<iframe class="home-vid" src="https://player.bilibili.com/player.html?aid=508860666&bvid=BV1ju411975N&cid=502775723&page=1" title="bilibili video"
-						allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="ratio ratio-16x9">
-					<iframe class="home-vid" src="https://player.bilibili.com/player.html?bvid=BV13j41197E8&page=1&autoplay=0&mute=1" title="bilibili video"
-						allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-		<p class="mx-5 d-flex justify-content-end"><a class='' href='#' role='button'>Watch
-				more &raquo;</a></p>
-		</div>
-	</section> -->
-	<hr class='featurette-divider'>
-	<footer>
-		<p class='mx-5 d-flex justify-content-end'><a class="" href='#top'>Back to top</a></p>
-	</footer>
+        <div class="research-focus">
+          <span class="focus-label">Research interests</span>
+          <p>
+            <span class="topic topic-vision">Computer vision</span>,
+            <span class="topic topic-language">vision-language understanding</span>,
+            <span class="topic topic-forensics">deepfake forensics</span>, and
+            <span class="topic topic-agentic">agentic AI</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="highlights">
+      <div class="section-heading">
+        <h2>Recent highlights</h2>
+        <p class="section-meta"><span id="highlight-count">0</span> updates</p>
+      </div>
+      <ul class="highlights-list" id="highlights-list" aria-live="polite"></ul>
+      <noscript><p class="noscript-note">Enable JavaScript to view recent highlights.</p></noscript>
+    </section>
+
+    <section class="content-section" id="research">
+      <div class="section-heading">
+        <h2>Selected publications</h2>
+        <p class="section-meta"><span id="publication-count">0</span> publications</p>
+      </div>
+      <ul class="publications-list" id="publications-list" aria-live="polite"></ul>
+      <noscript><p class="noscript-note">Enable JavaScript to view selected publications.</p></noscript>
+    </section>
+  </main>
+
+  <hr class="featurette-divider">
+  <footer>
+    <p>© Tai-Ming Huang</p>
+    <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
 </body>
-
 </html>
