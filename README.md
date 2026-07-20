@@ -25,6 +25,15 @@ Use `image: null` when a preview image is not available, and `links: []` when
 there are no links yet. The site automatically highlights `Tai-Ming Huang` in
 the author list and updates the publication count.
 
+Add `*` immediately after each equal-contribution author:
+
+```js
+authors: "First Author*, Tai-Ming Huang*, Last Author",
+```
+
+The site will automatically show `* Equal contribution.` below that paper's
+venue. No additional field is required.
+
 ## Add a recent highlight
 
 Add a new object at the **top** of the `highlights` list in `site-data.js`:

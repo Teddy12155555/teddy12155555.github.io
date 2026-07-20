@@ -86,11 +86,16 @@ h1, h2, h3 {
 }
 h1 {
   margin: 0;
-  font-size: clamp(3.5rem, 8vw, 6.25rem);
+  font-size: clamp(3.35rem, 7vw, 4.2rem);
   font-weight: 700;
   line-height: 0.96;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.042em;
 }
+.given-name,
+.nickname,
+.family-name { display: inline-block; white-space: nowrap; }
+.given-name { letter-spacing: -0.01em; }
+.nickname { color: #515b6b; font-weight: 600; }
 .family-name { color: var(--blue); }
 .hero-role {
   margin: 1.15rem 0 1.2rem;
@@ -195,6 +200,7 @@ h1 {
 .publication-content p { margin: 0 0 0.38rem; color: var(--secondary); }
 .publication-authors { font-size: 0.92rem; }
 .publication-venue { color: var(--indigo) !important; font-size: 0.88rem; font-weight: 650; }
+.publication-contribution { color: var(--muted) !important; font-size: 0.78rem; font-style: italic; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.75rem; }
 .publication-links a {
   color: var(--blue);
@@ -224,7 +230,7 @@ footer p { margin: 0; font-size: 0.8rem; }
   .hero-grid > .col-3,
   .hero-grid > .col-9 { flex: 0 0 100%; max-width: 100%; }
   .profile-photo { width: 7.5rem; margin-bottom: 2rem; }
-  h1 { font-size: clamp(3.5rem, 14vw, 5rem); }
+  h1 { font-size: clamp(3.35rem, 13.5vw, 4.5rem); }
   .research-focus { grid-template-columns: 1fr; gap: 0.35rem; }
   .content-section { margin-top: 4.75rem; }
 }

@@ -84,6 +84,13 @@
 
       content.append(title, authors, venue);
 
+      if (publication.authors.includes("*")) {
+        const contribution = document.createElement("p");
+        contribution.className = "publication-contribution";
+        contribution.textContent = "* Equal contribution.";
+        content.append(contribution);
+      }
+
       if (publication.links.length) {
         const links = document.createElement("div");
         links.className = "publication-links";
